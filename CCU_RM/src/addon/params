@@ -26,7 +26,7 @@ ADDON_INFO_LINK="<a href='https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master'
 
 # update-check.cgi:
 # Online link to the VERSION to check for updates 
-CHECK_URL="https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master/CCU_RM/src/addon/VERSION"
+CHECK_URL="https://raw.githubusercontent.com/BoruCz/HB-UNI-Sen-WIND/master/CCU_RM/src/addon/VERSION"
 
 # URL to download the addon
 DOWNLOAD_URL="https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master/CCU_RM/HB-UNI-Sen-WIND-addon.tgz"
