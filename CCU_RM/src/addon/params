@@ -1,0 +1,39 @@
+#############################################################
+# Version number
+ADDON_VERSION=1.01
+
+# ADDON_NAME, is used for the rc script and as a subdirectory of the installation /usr/local/addons/... 
+ADDON_NAME=hb-uni-sen-wind
+
+# Device type displayed in the WebUI
+# must be identical to the firmware XML tag: <type name="HB-UNI-Sen-WIND" id="HB-UNI-Sen-WIND">
+DEVICE="HB-UNI-Sen-WIND"
+
+# Device description displayed in the WebUI
+DEVICE_DESC="Universal wind sensor"
+
+# Firmware directory
+FIRMWARE_DIR=/firmware/rftypes
+# Name of the firmware file, consisting of ADDON_NAME.xml, only main name required, even with several .xml
+FIRMWARE_FILE=${FIRMWARE_DIR}/${ADDON_NAME}.xml
+
+# Name of the pictograms, consisting of ADDON_NAME.png or ADDON_NAME_thumb.png
+DEVICE_IMG=${ADDON_NAME}.png
+DEVICE_THUMB=${ADDON_NAME}_thumb.png
+
+# Link to the project (will be shown in the addon info under additional info)
+ADDON_INFO_LINK="<a href='https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master'>Project on Github</a>"
+
+# update-check.cgi:
+# Online link to the VERSION to check for updates 
+CHECK_URL="https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master/CCU_RM/src/addon/VERSION"
+
+# URL to download the addon
+DOWNLOAD_URL="https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master/CCU_RM/HB-UNI-Sen-WIND-addon.tgz"
+
+#############################################################
+
+#############################################################
+# Check again:
+# Is the XML tag id = "..." correct in the firmware file?
+#############################################################
