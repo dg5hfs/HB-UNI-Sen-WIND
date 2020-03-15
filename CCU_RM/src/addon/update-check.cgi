@@ -1,6 +1,6 @@
 #!/bin/tclsh
 set checkURL    "https://raw.githubusercontent.com/BoruCz/HB-UNI-Sen-WIND/master/CCU_RM/src/addon/VERSION"
-set downloadURL "https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master/CCU_RM/HB-UNI-Sen-WIND-addon.tgz"
+set downloadURL "https://github.com/BoruCz/HB-UNI-Sen-WIND/raw/master/CCU_RM/HB-UNI-Sen-WIND-addon.tgz"
 catch {
   set input $env(QUERY_STRING)
   set pairs [split $input &]

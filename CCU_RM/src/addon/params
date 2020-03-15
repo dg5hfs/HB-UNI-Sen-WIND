@@ -1,6 +1,6 @@
 #############################################################
 # Version number
-ADDON_VERSION=1.01
+ADDON_VERSION=1.02
 
 # ADDON_NAME, is used for the rc script and as a subdirectory of the installation /usr/local/addons/... 
 ADDON_NAME=hb-uni-sen-wind
@@ -29,7 +29,7 @@ ADDON_INFO_LINK="<a href='https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master'
 CHECK_URL="https://raw.githubusercontent.com/BoruCz/HB-UNI-Sen-WIND/master/CCU_RM/src/addon/VERSION"
 
 # URL to download the addon
-DOWNLOAD_URL="https://github.com/BoruCz/HB-UNI-Sen-WIND/tree/master/CCU_RM/HB-UNI-Sen-WIND-addon.tgz"
+DOWNLOAD_URL="https://github.com/BoruCz/HB-UNI-Sen-WIND/raw/master/CCU_RM/HB-UNI-Sen-WIND-addon.tgz"
 
 #############################################################
 
