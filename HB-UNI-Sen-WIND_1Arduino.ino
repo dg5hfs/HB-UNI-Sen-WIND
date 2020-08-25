@@ -4,6 +4,23 @@
 // 2018-09-13 jp112sdl Creative Commons - http://creativecommons.org/licenses/by-nc-sa/3.0/de/
 //- -----------------------------------------------------------------------------------------------------------------------
 
+// Ventus W132 Homematic Windsensor
+// Test mit nur einem Arduino
+// Conversion of a W132 wind sensor from ELV based on https://gist.github.com/micw/098709efc83a9d9ebf16d14cea4ca38e
+// * 
+// * - Disconnect the 433 MHz transmitter, which is connected to the logic board with 3 lines (black, red, blue)
+// *   433MHz Sender kann auch angeschlossen bleiben falls man die Original Wetterstation hat oder das 433MHz
+//     Signal z.B. mit einem RTL Stick empfangen möchte.
+// * - Connect the Arduino Pro Mini 
+// * - Black -> GND
+// * - Red -> 3.3V
+// * - Blue -> PIN3
+// * 
+// * A description of the protocol can be found at http://www.tfd.hu/tfdhu/files/wsprotocol/auriol_protocol_v20.pdf, https://sourceforge.net/p/wmrx00/discussion/855158/thread/ is also helpful b3a47730 /
+// * - Bits and sync signals are encoded using the spacing of the falling edge
+// * - this implementation uses an interrupt on the falling edge
+
+
 // define this to read the device id, serial and device type from bootloader section
 // #define USE_OTA_BOOTLOADER
 
